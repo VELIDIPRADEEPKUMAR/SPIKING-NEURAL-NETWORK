@@ -30,7 +30,7 @@ used a custom randomness estimator circuit to determine the third feature, which
 RR interval randomness. Finally, we used a Spiking Neural Network to classify the
 arrhythmia by analyzing the three features.
 
-figure 
+![System Architecture](sys_arch.png)
 
 
 ##Encoding ECG Signal
