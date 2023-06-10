@@ -33,7 +33,7 @@ arrhythmia by analyzing the three features.
 ![System Architecture](https://github.com/VELIDIPRADEEPKUMAR/SPIKING-NEURAL-NETWORK/blob/main/sys_arch.png?raw=true)
 
 
-##Encoding ECG Signal
+## Encoding ECG Signal
 To encode ECG into Spikes we used an AdEx (Adaptive Exponential Integrate-and-
 Fire) Neuron model. It is designed to capture the adaptive firing properties of real neu-
 rons and is often used in neuromorphic computing to encode signals into spike trains.
