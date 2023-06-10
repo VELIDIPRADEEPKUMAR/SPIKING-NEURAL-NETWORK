@@ -30,7 +30,7 @@ used a custom randomness estimator circuit to determine the third feature, which
 RR interval randomness. Finally, we used a Spiking Neural Network to classify the
 arrhythmia by analyzing the three features.
 
-![System Architecture](SPIKING-NEURAL-NETWORK/sys_arch.png)
+![System Architecture](sys_arch.png)
 
 
 ##Encoding ECG Signal
@@ -74,7 +74,7 @@ hardware that functions sequence to compute the difference equations. The archit
 for the digital circuit is shown in FIG:-2.1. There are 3 registers namely ω, V and E
 used to emulate the neuron dynamics.
 
-fIGURE //
+![AdEx Neuron Model](aDEX.png)
 
 ## Randomness Estimation Algorithm
 
@@ -83,7 +83,7 @@ two techniques, namely Shannon entropy, and variance. Fig 3.3 shows the flow dia
 of the Randomness finding algorithm. Which uses a moving window of RR 128 samples
 of intervals.
 
-fIG 
+![Randomness estimator block diagram](randomness.png)
 
 Also, we are using symbolic dynamics to describe the dynamic behavior of RR
 interval which was first introduced in paper [2]. Symbolic dynamics is a technique that
@@ -113,7 +113,7 @@ municate through spikes, which are discrete, brief electrical pulses that are tr
 only when the neuron receives enough input to exceed a certain threshold. This sparsity
 of spikes means that SNNs can have much lower activity and use less power.
 
-Fig 
+![Spikng Neural Network](snn.png)
 
 The Two-layered Spiking Neural Network was modeled with input signals including
 RR, RR-N, N-RR, QRS - 120, 120 - QRS, Shanon entropy, and Variance for the pur-
